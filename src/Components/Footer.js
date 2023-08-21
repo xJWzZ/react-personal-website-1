@@ -40,7 +40,7 @@ function Footer() {
                     area-label='twitter'>
                         <i className="fab fa-twitter"></i>
                     </Link>
-                    <Link className="social-icon-link facebook"
+                    {/* <Link className="social-icon-link facebook"
                     to="https://www.facebook.com/jack.wall.7731/"
                     target='_blank'
                     area-label='Facebook'>
@@ -51,7 +51,7 @@ function Footer() {
                     target='_blank'
                     area-label='Instagram'>
                         <i className="fab fa-instagram"></i>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </section>
