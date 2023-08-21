@@ -1,14 +1,10 @@
 
-
-section {
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
-}
-
 .animation {
     width: 50%;
     height: 80px;
     margin: 10px auto;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
 }

@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home';
 import WorkExperience from './Pages/WorkExperience';
 import Hobbies from './Pages/Hobbies';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/workexperience' Component={WorkExperience}/>
           <Route path='/hobbies' Component={Hobbies}/>
         </Routes>
+        <Footer></Footer>
       </Router> 
     </>
   );
