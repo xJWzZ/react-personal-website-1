@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import WorkExperience from './Pages/WorkExperience';
 import Hobbies from './Pages/Hobbies';
 import Footer from './Components/Footer';
+import Guidewire from './Pages/Guidewire';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' exact Component={Home}/>
           <Route path='/workexperience' Component={WorkExperience}/>
           <Route path='/hobbies' Component={Hobbies}/>
+          <Route path='/work/guidewire' Component={Guidewire}/>
         </Routes>
         <Footer></Footer>
       </Router> 
