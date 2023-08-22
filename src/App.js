@@ -17,6 +17,10 @@ function App() {
           <Route path='/workexperience' Component={WorkExperience}/>
           <Route path='/hobbies' Component={Hobbies}/>
           <Route path='/work/guidewire' Component={Guidewire}/>
+          <Route path='/github' Component={() => {
+            window.location.href = 'https://github.com/xJWzZ/react-personal-website-1';
+            return null
+          }}/>
         </Routes>
         <Footer></Footer>
       </Router> 
