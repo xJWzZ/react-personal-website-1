@@ -18,7 +18,9 @@ function HeroSection() {
             <Button className="btn-github" buttonStyle='btn--outline'
             buttonSize='btn--large'
             >
-                <Link to='https://github.com/xJWzZ/react-personal-website-1'>GitHub <i class="fa-solid fa-laptop-code fa-xs"></i></Link>
+                <Link to='/github' className='lnk-github'>
+                    GitHub <i class="fa-solid fa-laptop-code fa-xs"></i>
+                </Link>
             </Button>
         </div>
     </div>
