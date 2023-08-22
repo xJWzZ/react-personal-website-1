@@ -2,13 +2,15 @@ import React from 'react'
 import { Button } from './Button'
 import './HeroSection.css'
 import '../App.css'
-import background from "../images/img29.jpg"
+import background from "../images/Ballybunion_Castle_5.jpg"
 import { Link } from 'react-router-dom'
 
 function HeroSection() {
   return (
     <div className='hero-container' style={{
-        backgroundImage: `url(${background})`
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",  
     }}>
         <h1>Jack Wall</h1>
         <p>Software Engineer</p>
