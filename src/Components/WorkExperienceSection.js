@@ -10,9 +10,6 @@ function WorkExperienceSection() {
     }, [])
   return (
     <>
-        <section className='animation' data-aos="fade-left" data-aos-easing="linear">
-            <h1>Work Experience</h1>
-        </section>
         <section className='animation' data-aos="fade-left">
             <h2>Guidewire</h2>
             <h3>November 2020 - March 2023</h3>

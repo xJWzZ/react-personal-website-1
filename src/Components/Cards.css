@@ -5,6 +5,8 @@
   
   h1 {
     text-align: center;
+      color: #fff;
+      font-size: 75px;
   }
   
   .cards__container {
@@ -30,6 +32,8 @@
     flex: 1;
     margin: 0 5rem;
     border-radius: 50px;
+    background: #ffffff;
+    
   }
   
   .cards__item__link {

@@ -3,10 +3,15 @@ import Card from './Card'
 import './Cards.css'
 import guidewire from "../images/guidewire.jpg"
 import overc from "../images/over-c.png"
+import background from "../images/Ballybunion_Castle_5.jpg"
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className='cards' style={{
+      backgroundImage: `url(${background})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",  
+  }}>
         <h1>Work Experience</h1>
         <div className="cards__container">
             <div className="cards__wrapper">
