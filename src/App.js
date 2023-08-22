@@ -6,6 +6,7 @@ import WorkExperience from './Pages/WorkExperience';
 import Hobbies from './Pages/Hobbies';
 import Footer from './Components/Footer';
 import Guidewire from './Pages/Guidewire';
+import OverC from './Pages/OverC';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/workexperience' Component={WorkExperience}/>
           <Route path='/hobbies' Component={Hobbies}/>
           <Route path='/work/guidewire' Component={Guidewire}/>
+          <Route path='/work/overc' Component={OverC}/>
           <Route path='/github' Component={() => {
             window.location.href = 'https://github.com/xJWzZ/react-personal-website-1';
             return null
