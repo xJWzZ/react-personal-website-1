@@ -1,11 +1,11 @@
 import React from 'react'
-import '../App.css'
 import Cards from '../Components/Cards'
+import WorkExperienceCard from '../Components/WorkExperience/WorkExperienceCard'
 
 export default function WorkExperience() {
     return (
         <>
-            <Cards></Cards>
+            <WorkExperienceCard/>
         </>
       )
 }
