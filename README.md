@@ -10,7 +10,7 @@ Current tasks ahead of the project as of 16/08/2023 are:
 - Create new pages containing professional and leisure information.
 - ~~Add Footer with address and contact information.~~
 - Add blog post section with learnings from this project, as well as blog post from my travel journal.
-- Host the website on AWS
+- ~~Host the website on AWS~~
 
 Later additions:
 - Connect to spotify API to show what I'm listening to
