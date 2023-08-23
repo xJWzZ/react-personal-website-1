@@ -9,6 +9,7 @@ import Guidewire from './Pages/Guidewire';
 import OverC from './Pages/OverC';
 import Caddy from './Pages/Caddy';
 import Musician from './Pages/Musician';
+import Blog from './Pages/Blog';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/details/2' Component={OverC}/>
           <Route path='/details/3' Component={Caddy}/>
           <Route path='/details/4' Component={Musician}/>
+          <Route path='/blog' Component={Blog}/>
           <Route path='/github' Component={() => {
             window.location.href = 'https://github.com/xJWzZ/react-personal-website-1';
             return null
