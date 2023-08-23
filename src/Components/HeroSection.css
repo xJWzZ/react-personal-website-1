@@ -75,6 +75,7 @@ video {
   .lnk-github {
     color: #ffffff;
     text-decoration: none;
+    font-size: 20px;
     
   }
   .lnk-github:hover {
