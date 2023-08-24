@@ -156,4 +156,15 @@
       color: #242424;
       transition: 250ms;
     }
+
+    
+  }
+
+  .removeLink {
+    color: #fff;
+  }
+  .removeLink:hover {
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
   }
