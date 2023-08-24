@@ -1,8 +1,9 @@
 import React from 'react'
+import HobbiesSection from '../Components/Hobbies/HobbiesSection'
 
 function Hobbies() {
   return (
-    <div>Hobbies</div>
+    <div><HobbiesSection></HobbiesSection></div>
   )
 }
 

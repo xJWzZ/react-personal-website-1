@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './Button'
 import './HeroSection.css'
 import '../App.css'
-import background from "../images/Ballybunion_Castle_5.jpg"
+import background from "../images/background.JPG"
 import { Link } from 'react-router-dom'
 
 function HeroSection() {
@@ -16,7 +16,9 @@ function HeroSection() {
         <p>Software Engineer</p>
         <div>
             <Button className="btn" buttonStyle='btn--outline'
-            buttonSize='btn--large'>Blog Posts</Button>
+            buttonSize='btn--large'><Link to='/blog' className='lnk-github'>
+                Blog Posts
+        </Link></Button>
             <Button className="btn-github" buttonStyle='btn--outline'
             buttonSize='btn--large'
             >
