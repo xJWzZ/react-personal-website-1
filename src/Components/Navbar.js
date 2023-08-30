@@ -19,6 +19,13 @@ function Navbar() {
         }
     }
 
+    const emailAddress = "jack.wall.business@gmail.com"
+    const subject = "Inquiry"
+
+    const handleEmailClick = () => {
+        window.location.href = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
+    }
+
     useEffect(() => {
         showButton()
     }, [])
@@ -52,7 +59,11 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+                        {button && <Button buttonStyle='btn--outline' >
+                            <Link to="/email" className="removeLink">
+                                Contact
+                            </Link>
+                        </Button>}
                 </div>
             </nav>
         </>
