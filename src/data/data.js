@@ -110,7 +110,7 @@ export const nav = [
       job:"Self Employed",
       desc: "Playing gigs both solo and in a band for clubs, bars, weddings and family celebrations both locally and internationally",
       category: "Fashion",
-      cover: "../images/musician.jpg",
+      cover: "../images/Musician.jpg",
       date: "February 20, 2018",
     },
     
