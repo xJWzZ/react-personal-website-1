@@ -2,6 +2,8 @@
 
 As a personal project, I've decided to create a personal website written in React and hosted on AWS services. The objective of this project is to farmiliarise myself with these technologies as I'm looking to share my experience in full stack development, even on a small scale like this.
 
+https://production.d2iinmi5a04x2k.amplifyapp.com/
+
 Below is some documentation on how to run the react application locally.
 
 If you have suggestions / improvements, I would love to hear them.
