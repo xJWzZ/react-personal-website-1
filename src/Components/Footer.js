@@ -35,7 +35,7 @@ function Footer() {
                         <i className="fab fa-linkedin"></i>
                     </Link>
                     <Link className="social-icon-link twitter"
-                    to="/"
+                    to="https://twitter.com/JackWSoftware"
                     target='_blank'
                     area-label='twitter'>
                         <i className="fab fa-twitter"></i>
