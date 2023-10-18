@@ -2,9 +2,8 @@
 
 .containerDiv {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 10px; /* Remove the gap between images */
-    margin: 20px; /* Adjust the margin as needed */
+    gap: 2px; /* Remove the gap between images */
+    margin: 10px; /* Adjust the margin as needed */
   }
   
   .indexDiv {
@@ -24,5 +23,9 @@
     transform: scale(1.05); /* Zoom in a bit on hover */
   }
   
-  /* Add more styling as needed */
+  @media only screen and (min-width: 1024px) {
+    .containerDiv {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+  }
   
