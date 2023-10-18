@@ -119,7 +119,7 @@ export const nav = [
   export const hobbyPhotoAlbum = [
     {
       id: 1,
-      src: "../images/hobbies/001.JPEG"
+      src: "../images/hobbies/001.jpeg"
     },
     {
       id: 2,
