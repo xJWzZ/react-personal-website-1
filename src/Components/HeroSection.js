@@ -1,8 +1,8 @@
 import React from 'react'
 import { Button } from './Button'
 import './HeroSection.css'
-// import '../App.css'
-import background from "../images/background.JPG"
+import '../App.css'
+import background from "../images/HomePageBackground.jpg"
 import { Link } from 'react-router-dom'
 
 function HeroSection() {
