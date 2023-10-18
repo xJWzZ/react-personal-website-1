@@ -1,14 +1,15 @@
 import React from 'react'
-import "./HobbiesSection.css"
+import HobbyPhotoAlbum from './HobbyPhotoAlbum'
 
 function HobbiesSection() {
   return (
     <div>
-        <section className="hobbies">
-            <div className='container grid1'>
-                <h2>Hobbies</h2>
+        <section>
+            <div>
+                {/* <h2>Hobbies</h2> */}
                     <p>
-                        This space will be updated soon...
+                        {/* This space will be updated soon... */}
+                        <HobbyPhotoAlbum></HobbyPhotoAlbum>
                     </p>
                 </div>
         </section>
