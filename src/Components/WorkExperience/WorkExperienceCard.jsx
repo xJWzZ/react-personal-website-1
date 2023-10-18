@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 function WorkExperienceCard() {
   return (
     <>
-      <section className='blog'>
+      <section className='boxContainer'>
         <div className='container grid3'>
           {blog.map((item) => (
             <div className='box boxItems' key={item.id}>
