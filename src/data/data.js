@@ -127,95 +127,95 @@ export const nav = [
     },
     {
       id: 3,
-      src: "../images/hobbies/003.JPEG"
+      src: "../images/hobbies/003.jpg"
     },
     {
       id: 4,
-      src: "../images/hobbies/004.JPEG"
+      src: "../images/hobbies/004.jpg"
     },
     {
       id: 5,
-      src: "../images/hobbies/005.JPEG"
+      src: "../images/hobbies/005.jpg"
     },
     {
       id: 6,
-      src: "../images/hobbies/006.JPEG"
+      src: "../images/hobbies/006.jpg"
     },
     {
       id: 7,
-      src: "../images/hobbies/007.JPEG"
+      src: "../images/hobbies/007.jpg"
     },
     {
       id: 8,
-      src: "../images/hobbies/008.JPEG"
+      src: "../images/hobbies/008.jpg"
     },
     {
       id: 9,
-      src: "../images/hobbies/009.JPEG"
+      src: "../images/hobbies/009.jpg"
     },
     {
       id: 10,
-      src: "../images/hobbies/010.JPEG"
+      src: "../images/hobbies/010.jpg"
     },
     {
       id: 11,
-      src: "../images/hobbies/011.JPEG"
+      src: "../images/hobbies/011.jpg"
     },
     {
       id: 12,
-      src: "../images/hobbies/012.JPEG"
+      src: "../images/hobbies/012.jpg"
     },
     {
       id: 13,
-      src: "../images/hobbies/013.JPEG"
+      src: "../images/hobbies/013.jpg"
     },
     {
       id: 14,
-      src: "../images/hobbies/014.JPEG"
+      src: "../images/hobbies/014.jpg"
     },
     {
       id: 15,
-      src: "../images/hobbies/015.JPEG"
+      src: "../images/hobbies/015.jpg"
     },
     {
       id: 16,
-      src: "../images/hobbies/016.JPEG"
+      src: "../images/hobbies/016.jpg"
     },
     {
       id: 17,
-      src: "../images/hobbies/017.JPEG"
+      src: "../images/hobbies/017.jpg"
     },
     {
       id: 18,
-      src: "../images/hobbies/018.JPEG"
+      src: "../images/hobbies/018.jpg"
     },
     {
       id: 19,
-      src: "../images/hobbies/019.JPEG"
+      src: "../images/hobbies/019.jpg"
     },
     {
       id: 20,
-      src: "../images/hobbies/020.JPEG"
+      src: "../images/hobbies/020.jpg"
     },
     {
       id: 21,
-      src: "../images/hobbies/021.JPEG"
+      src: "../images/hobbies/021.jpg"
     },
     {
       id: 22,
-      src: "../images/hobbies/022.JPEG"
+      src: "../images/hobbies/022.jpg"
     },
     {
       id: 23,
-      src: "../images/hobbies/023.JPG"
+      src: "../images/hobbies/0233.jpg"
     },
     {
       id: 24,
-      src: "../images/hobbies/024.JPG"
+      src: "../images/hobbies/0244.jpg"
     },
     {
       id: 25,
-      src: "../images/hobbies/025.JPEG"
+      src: "../images/hobbies/025.jpg"
     }
   ]
   
