@@ -1,52 +1,54 @@
-.blog {
-    margin: 50px 0;
+.boxContainer {
+    margin: 100px 10vw;
+    display: grid;
+    align-items: center;
   }
-  .blog .boxItems {
+  .boxContainer .boxItems {
     transition: 0.5s;
   }
-  .blog .boxItems:hover {
+  .boxContainer .boxItems:hover {
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
     cursor: pointer;
     transform: translateY(-5px);
   }
-  .blog img {
+  .boxContainer img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 20px;
   }
-  .blog .icon {
+  .boxContainer .icon {
     margin-right: 10px;
     font-size: 20px;
   }
-  .blog .tag a {
+  .boxContainer .tag a {
     color: blue;
     opacity: 0.7;
   }
-  .blog .tag {
+  .boxContainer .tag {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
   }
-  .blog h3 {
+  .boxContainer h3 {
     font-weight: 500;
   }
-  .blog h4 {
+  .boxContainer h4 {
     font-weight: 400;
   }
-  .blog p {
+  .boxContainer p {
     color: #999;
     font-weight: 400;
     margin: 20px 0;
     font-size: 17px;
     line-height: 25px;
   }
-  .blog .date {
+  .boxContainer .date {
     display: flex;
     align-items: center;
   }
-  .blog .date label {
+  .boxContainer .date label {
     display: block;
     margin-right: 20px;
   }
