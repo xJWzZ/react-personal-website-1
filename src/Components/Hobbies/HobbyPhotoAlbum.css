@@ -1,0 +1,28 @@
+/* HobbyPhotoAlbum.css */
+
+.containerDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px; /* Remove the gap between images */
+    margin: 20px; /* Adjust the margin as needed */
+  }
+  
+  .indexDiv {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .img:hover {
+    transform: scale(1.05); /* Zoom in a bit on hover */
+  }
+  
+  /* Add more styling as needed */
+  
