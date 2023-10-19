@@ -1,5 +1,5 @@
 import React from 'react'
-import "./CaddySection.css"
+import "../Styles/CaddySection.css"
 
 function CaddySection() {
   return (

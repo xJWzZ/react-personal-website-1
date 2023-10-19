@@ -1,0 +1,32 @@
+.websiteDevPost {
+    width: 50%;
+    margin: 10px auto;
+    display: grid;
+    place-items: center start;
+}
+.websiteDevPost h1 {
+    margin: 0px 0px 40px 0px;
+}
+
+.websiteDevPost h2 {
+    margin: 50px 0px 0px 0px;
+}
+
+.websiteDevPost h3 {
+    margin: 20px 0px 0px 0px;
+}
+
+
+.websiteDevPost p, .websiteDevPost ol {
+    max-width: 80%;
+    margin: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    color: #5a5a5a;
+}
+
+.websiteDevPost img {
+    width: 70%;
+    object-fit: cover;
+    margin-bottom: 20px;
+} 

@@ -32,6 +32,7 @@ const EmailForm = () => {
       <div>
         <label htmlFor="message">Message:</label>
         <textarea
+          type="text"
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}

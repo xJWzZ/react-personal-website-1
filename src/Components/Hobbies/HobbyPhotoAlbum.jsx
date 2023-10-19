@@ -1,5 +1,5 @@
 import React from 'react'
-import "./HobbyPhotoAlbum.css"
+import "../../Styles/HobbyPhotoAlbum.css"
 import { hobbyPhotoAlbum } from '../../data/data'
 
 function HobbyPhotoAlbum() {

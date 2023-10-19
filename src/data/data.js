@@ -25,57 +25,8 @@ export const nav = [
       url: "/contact",
     },
   ]
-  export const category = [
-    {
-      id: 1,
-      category: "Life",
-      title: "Stay Calm And Surf",
-      cover: "../images/category/ca1.png",
-    },
-    {
-      id: 2,
-      category: "Fashion",
-      title: "Becoming a Dragonfly",
-      cover: "../images/category/ca2.png",
-    },
-    {
-      id: 3,
-      category: "Travel",
-      title: "There's always light at the end of the tunnel",
-      cover: "../images/category/ca3.png",
-    },
-    {
-      id: 4,
-      category: "Sport",
-      title: "Stay Calm And Surf",
-      cover: "../images/category/ca4.png",
-    },
-    {
-      id: 5,
-      category: "Fun",
-      title: "There's always light at the end of the tunnel",
-      cover: "../images/category/ca5.png",
-    },
-    {
-      id: 6,
-      category: "Health",
-      title: "Becoming a Dragonfly",
-      cover: "../images/category/ca6.png",
-    },
-    {
-      id: 7,
-      category: "Business",
-      title: "Stay Calm And Surf",
-      cover: "../images/category/ca7.png",
-    },
-    {
-      id: 8,
-      category: "Technology",
-      title: "There's always light at the end of the tunnel",
-      cover: "../images/category/ca8.png",
-    },
-  ]
-  export const blog = [
+  
+  export const workExperience = [
     {
       id: 1,
       title: "Guidewire (Nov 2020 - Mar 2023)",
@@ -113,7 +64,15 @@ export const nav = [
       cover: "../images/Musician.jpg",
       date: "February 20, 2018",
     },
-    
+  ]
+
+  export const blogPostLinks = [
+    {
+      id: 1,
+      imgSrc: '../Assets/Images/Blog/Coding.jpg',
+      title: 'Personal Website Development',
+      summary: 'I discuss the Project Overview, Tech Stack, Deployment and Optimization'
+    }
   ]
 
   export const hobbyPhotoAlbum = [
@@ -216,6 +175,41 @@ export const nav = [
     {
       id: 25,
       src: "../images/hobbies/025.jpg"
+    }
+  ]
+
+  export const websiteBlogPhotos = [
+    {
+      id: "AWS",
+      src: "../Assets/Images/Blog/AWS.jpg"
+    },
+    {
+      id: "AWS2",
+      src: "../Assets/Images/Blog/AWS2.jpg"
+    },
+    {
+      id: "Coding",
+      src: "../Assets/Images/Blog/Coding.jpg"
+    },
+    {
+      id: "Directory",
+      src: "../Assets/Images/Blog/Directory.jpg"
+    },
+    {
+      id: "Github",
+      src: "../Assets/Images/Blog/Github.jpg"
+    },
+    {
+      id: "Mobile",
+      src: "../Assets/Images/Blog/Mobile.jpg"
+    },
+    {
+      id: "ReactJS",
+      src: "../Assets/Images/Blog/ReactJS.jpg"
+    },
+    {
+      id: "ThumbsUp",
+      src: "../Assets/Images/Blog/ThumbsUp.jpg"
     }
   ]
   

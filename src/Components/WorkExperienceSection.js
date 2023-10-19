@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import './WorkExperienceSection.css'
+import '../Styles/WorkExperienceSection.css'
 
 
 function WorkExperienceSection() {
