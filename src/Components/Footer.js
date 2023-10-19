@@ -1,7 +1,7 @@
 import React from 'react'
-import '../App.css'
-import './Footer.css'
-import './HeroSection.css'
+import '../Styles/App.css'
+import '../Styles/Footer.css'
+import '../Styles/HeroSection.css'
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -26,7 +26,7 @@ function Footer() {
                     to="https://github.com/xJWzZ/react-personal-website-1"
                     target='_blank'
                     area-label='Github'>
-                        <i class="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github"></i>
                     </Link>
                     <Link className="social-icon-link LinkedIn"
                     to="https://www.linkedin.com/in/jack-wall-2ab4b6158/"
