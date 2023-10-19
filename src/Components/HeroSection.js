@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
-import './HeroSection.css'
-import '../App.css'
+import '../Styles/HeroSection.css'
+import '../Styles/App.css'
 import background from "../images/HomePageBackground.jpg"
 import { Link } from 'react-router-dom'
 
@@ -23,7 +23,7 @@ function HeroSection() {
             buttonSize='btn--large'
             >
                 <Link to='/github' className='lnk-github'>
-                    GitHub <i class="fa-solid fa-laptop-code fa-xs"></i>
+                    GitHub <i className="fa-solid fa-laptop-code fa-xs"></i>
                 </Link>
             </Button>
         </div>

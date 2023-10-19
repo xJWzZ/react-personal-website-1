@@ -1,0 +1,11 @@
+.blog {
+    margin: 100px 0vw;
+}
+
+
+.blogHeader, .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

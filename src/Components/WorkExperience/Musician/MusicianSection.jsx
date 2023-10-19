@@ -1,5 +1,5 @@
 import React from 'react'
-import "./MusicianSection.css"
+import "../../../Styles/MusicianSection.css"
 
 function MusicianSection() {
   return (

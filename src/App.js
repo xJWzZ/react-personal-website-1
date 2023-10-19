@@ -1,4 +1,4 @@
-import './App.css';
+import './Styles/App.css';
 import Navbar from './Components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home';
@@ -11,10 +11,13 @@ import Caddy from './Pages/Caddy';
 import Musician from './Pages/Musician';
 import Blog from './Pages/Blog';
 import Email from './Pages/Email';
+import WebsiteBlog from './Pages/WebsiteBlog';
+import { StrictMode } from 'react';
 
 function App() {
   return (
     <>
+    <StrictMode>
       <Router>
         <Navbar/>
         <Routes>
@@ -27,6 +30,7 @@ function App() {
           <Route path='/details/4' Component={Musician}/>
           <Route path='/blog' Component={Blog}/>
           <Route path='/email' Component={Email}/>
+          <Route path='/blogdetails/1' Component={WebsiteBlog}/>
           <Route path='/github' Component={() => {
             window.location.href = 'https://github.com/xJWzZ/react-personal-website-1';
             return null
@@ -34,6 +38,7 @@ function App() {
         </Routes>
         <Footer></Footer>
       </Router> 
+      </StrictMode>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import "./WorkExperienceCard.css"
-import { blog } from "../../data/data"
+import "../../Styles/WorkExperienceCard.css"
+import { workExperience } from "../../data/data"
 import { Link } from "react-router-dom"
 
 function WorkExperienceCard() {
@@ -8,18 +8,20 @@ function WorkExperienceCard() {
     <>
       <section className='boxContainer'>
         <div className='container grid3'>
-          {blog.map((item) => (
+          {workExperience.map((item) => (
             <div className='box boxItems' key={item.id}>
+              <Link to={`/details/${item.id}`} className='link'>
               <div className='img'>
                 <img src={item.cover} alt='' />
               </div>
               <div className='details'>
-                <Link to={`/details/${item.id}`} className='link'>
+                
                   <h3>{item.title}</h3>
                   <h4>{item.job}</h4>
-                </Link>
+                
                 <p>{item.desc.slice(0, 180)}...</p>
               </div>
+              </Link>
             </div>
           ))}
         </div>
