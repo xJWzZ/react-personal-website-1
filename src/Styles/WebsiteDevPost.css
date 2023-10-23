@@ -17,7 +17,7 @@
 }
 
 
-.websiteDevPost p, .websiteDevPost ol {
+.websiteDevPost p, .websiteDevPost ol, .websiteDevPost ul {
     max-width: 80%;
     margin: 5px;
     font-family: "Poppins", sans-serif;
