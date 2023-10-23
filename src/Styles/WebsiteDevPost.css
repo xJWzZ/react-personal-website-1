@@ -30,3 +30,13 @@
     object-fit: cover;
     margin-bottom: 20px;
 } 
+@media only screen and (max-width: 1024px) {
+    .websiteDevPost {
+      display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    }
+  }
