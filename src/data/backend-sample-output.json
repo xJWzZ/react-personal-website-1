@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "firstName": "Jack",
+        "lastName": "Wall",
+        "dob": "1997-06-03",
+        "relationships": [
+            {
+                "relationshipID": 1,
+                "relatedPersonID": 2,
+                "relationshipType": "parent"
+            },
+            {
+                "relationshipID": 2,
+                "relatedPersonID": 3,
+                "relationshipType": "parent"
+            }
+        ],
+        "gender": "male",
+        "info": "Test info",
+        "createDate": "2023-11-20T16:40:04.221169",
+        "lastModified": null,
+        "createdBy": 1,
+        "lastModifiedBy": null
+    },
+    {
+        "id": 2,
+        "firstName": "Tom",
+        "lastName": "Wall",
+        "dob": "1960-06-03",
+        "relationships": [
+            {
+                "relationshipID": 3,
+                "relatedPersonID": 3,
+                "relationshipType": "spouse"
+            },
+            {
+                "relationshipID": 4,
+                "relatedPersonID": 1,
+                "relationshipType": "children"
+            }
+        ],
+        "gender": "male",
+        "info": "Test info",
+        "createDate": "2023-11-20T16:40:07.065525",
+        "lastModified": null,
+        "createdBy": 1,
+        "lastModifiedBy": null
+    },
+    {
+        "id": 3,
+        "firstName": "Rose",
+        "lastName": "Wall",
+        "dob": "1997-06-03",
+        "relationships": [
+            {
+                "relationshipID": 5,
+                "relatedPersonID": 2,
+                "relationshipType": "spouse"
+            },
+            {
+                "relationshipID": 6,
+                "relatedPersonID": 1,
+                "relationshipType": "children"
+            }
+        ],
+        "gender": "female",
+        "info": "Test info",
+        "createDate": "2023-11-20T16:40:09.610172",
+        "lastModified": null,
+        "createdBy": 1,
+        "lastModifiedBy": null
+    }
+]

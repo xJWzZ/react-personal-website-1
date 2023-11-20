@@ -1,0 +1,55 @@
+/* Apply styles to the container */
+.card {
+    /* width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f4f4f4;
+  }
+  
+  /* Style the text inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the login button */
+  .familyTreeButton {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style the error message */
+  .error-message {
+    color: #ff0000;
+  }
+
+  /* Apply styles to the warning div */
+.warning {
+    background-color: #ff6666; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding around the text */
+    border-radius: 3px; /* Rounded corners */
+    margin-top: 10px; /* Spacing from elements above it */
+    text-align: center; /* Center the text horizontally */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  

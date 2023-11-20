@@ -56,15 +56,15 @@ label {
   padding: 20px;
   background: #fff;
 }
-form {
+/* form {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin: auto;
   margin-top: 80px;
   padding: 40px;
-}
-form span {
+} */
+/* form span {
   margin-bottom: 20px;
 }
 form textarea,
@@ -84,7 +84,7 @@ form input {
 form textarea {
   padding: 10px;
   min-height: 120px;
-}
+} */
 .button {
   background: #212121;
   border: 1px solid;

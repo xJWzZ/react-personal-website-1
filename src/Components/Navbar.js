@@ -58,6 +58,11 @@ function Navbar() {
                                 Hobbies
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link to="/familytree" className='nav-links' onClick={closeMobileMenu}>
+                                Family Tree
+                            </Link>
+                        </li>
                     </ul>
                         {button && <Button buttonStyle='btn--outline' >
                             <Link to="/email" className="removeLink">

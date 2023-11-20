@@ -12,6 +12,7 @@ import Musician from './Pages/Musician';
 import Blog from './Pages/Blog';
 import Email from './Pages/Email';
 import WebsiteBlog from './Pages/WebsiteBlog';
+import FamilyTree from './Pages/FamilyTree';
 import { StrictMode } from 'react';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path='/details/4' Component={Musician}/>
           <Route path='/blog' Component={Blog}/>
           <Route path='/email' Component={Email}/>
+          <Route path='/familytree' Component={FamilyTree}/>
           <Route path='/blogdetails/1' Component={WebsiteBlog}/>
           <Route path='/github' Component={() => {
             window.location.href = 'https://github.com/xJWzZ/react-personal-website-1';
