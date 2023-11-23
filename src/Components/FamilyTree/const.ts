@@ -33,7 +33,7 @@ interface inputDataBeforeTransformation {
   lastModifiedBy: number | null;
 }
 
-function transformInputData(inputDataBeforeTransformation: inputDataBeforeTransformation[]): Node[] {
+export default function transformInputData(inputDataBeforeTransformation: inputDataBeforeTransformation[]): Node[] {
   return inputDataBeforeTransformation.map((person) => {
     const parents = person.relationships
       .filter((relationship) => relationship.relationshipType === 'parent')

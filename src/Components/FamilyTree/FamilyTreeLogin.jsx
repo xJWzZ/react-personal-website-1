@@ -57,12 +57,12 @@ function FamilyTreeLogin(props) {
   
     return (
       <div className='card'>
-        {/* {isLoggedIn ? ( */}
+        {isLoggedIn ? (
           <div>
             <FamilyTreeHome></FamilyTreeHome>
-            {/* <button className='familyTreeButton' onClick={handleLogout}>Logout</button> */}
+            <button className='familyTreeButton' onClick={handleLogout}>Logout</button>
           </div>
-        {/* ) : (
+         ) : (
           <div>
             <h1>Family Tree Login</h1>
             <p>My passion project. An interactive family tree editor.</p>
@@ -82,7 +82,7 @@ function FamilyTreeLogin(props) {
             {error ? (<div className='warning'>{error}</div>) : (<div></div>)}
             
           </div>
-        )} */}
+        )} 
       </div>
     );
 

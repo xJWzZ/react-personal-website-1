@@ -1,6 +1,5 @@
 
 import averageTree from 'relatives-tree/samples/average-tree.json';
-import couple from 'relatives-tree/samples/couple.json';
 import diffParents from 'relatives-tree/samples/diff-parents.json';
 import divorcedParents from 'relatives-tree/samples/divorced-parents.json';
 import empty from 'relatives-tree/samples/empty.json';
@@ -15,7 +14,6 @@ export const NODE_HEIGHT = 80;
 
 export const SOURCES = {
   'average-tree.json': averageTree,
-  'couple.json': couple,
   'diff-parents.json': diffParents,
   'divorced-parents.json': divorcedParents,
   'empty.json': empty,
@@ -30,4 +28,4 @@ export const DEFAULT_SOURCE = Object.keys(SOURCES)[0];
 export const URL_LABEL = 'URL (Gist, Paste.bin, ...)';
 
 export const API_BASE_URL = 'http://localhost:8080/api/v1/';
-export const MOCK_API = true;
+export const MOCK_API = false;
